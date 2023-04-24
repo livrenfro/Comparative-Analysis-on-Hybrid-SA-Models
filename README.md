@@ -17,7 +17,7 @@ The following python files are included in this repository:
 5. `model_prep.py`: Splits data for each lexicon using distribition aware procedure. Applies all numerical feature map transformations: TF-IDF, TF-IDF with SVD, Google 300 Word2Vec, GloVe 200 Word2Vec.
 6. `modeling_master.py`: Loads all data, checks parameter tuning using validation curves, and collects results from models. 
 
-The data currenlty in this repository will be overwritten on your local decive when running these files. Each file is built to be able to run independently, given the required data was collected at some point in time. 
+The data currenlty in this repository will be overwritten on your local decive when running these files. Each file is built to be able to run independently, given the required data was collected at some point in time. The `testing_phase_files` folder contains python files and data saved from the exploratory phase of my research. For all purposes of the study, this folder can be completely ignored. 
 
 *Usage*
 
