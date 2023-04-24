@@ -1,6 +1,6 @@
 **SentiWordNet and VADER: Comparative Analysis of the Efficacy of Hybrid Sentiment Analysis Models***
 
-This repository contains the code and data for my senior thesis, which explores and compares different hybrid sentiment analysis procedures using two polarity lexicons: VADER and SentiWordNet.
+This repository contains the code and data for my senior thesis, which explores and compares different hybrid sentiment analysis procedures using two polarity lexicons: VADER and SentiWordNet. The report can be accessed and downloaded from the `Report` folder. 
 
 *Description*
 
