@@ -30,7 +30,7 @@ Run the files in order to execute the code.
 
 *Results*
 
-The results of my analysis can be found in my senior thesis paper, which is not included in this repository. However, the code in this repository can be used to replicate the analysis and generate similar results.
+The results of my analysis can be found in my senior thesis paper, which is included in this repository in the `Report` folder. The code in this repository can be used to replicate the analysis and generate similar results.
 
 *Contact*
 
