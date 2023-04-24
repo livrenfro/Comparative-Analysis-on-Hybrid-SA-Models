@@ -1,0 +1,1 @@
+The pre-trained word embedding models used in this analysis are too big to be uploaded on github. The python file `model_prep.py` will download these models in the first run. I reccomned commenting out the gensim download lines and uncommenting the pickle retireval lines after the first run. 
