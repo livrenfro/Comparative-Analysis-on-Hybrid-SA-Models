@@ -8,16 +8,16 @@ In this thesis, I conducted an exploratory analysis of different hybrid sentimen
 
 *Files*
 
-The following python files are included in this repository:
+The following Python files are included in this repository:
 
-1. `dataload.py`: Loads data scraped for this project and cleans/precoesses it using the procedures outlined in the report. 
+1. `dataload.py`: Loads data scraped for this project and cleans/processes it using the procedures outlined in the report. 
 2. `taggingscript.py`: Using a connection to the Stanford NLP server (details in file), tags and lemmatizes each word in a tweet with POS tag.
 3. `sentiword_sentiment.py`: Assigns sentiment values using SentiWordNet polarity lexicon.
 4. `VADER_sentiment.py`: Assigns sentiment values using VADER polarity lexicon.
-5. `model_prep.py`: Splits data for each lexicon using distribition aware procedure. Applies all numerical feature map transformations: TF-IDF, TF-IDF with SVD, Google 300 Word2Vec, GloVe 200 Word2Vec.
+5. `model_prep.py`: Splits data for each lexicon using a distribution-aware procedure. Applies all numerical feature map transformations: TF-IDF, TF-IDF with SVD, Google 300 Word2Vec, GloVe 200 Word2Vec.
 6. `modeling_master.py`: Loads all data, checks parameter tuning using validation curves, and collects results from models. 
 
-The data currenlty in this repository will be overwritten on your local decive when running these files. Each file is built to be able to run independently, given the required data was collected at some point in time. The `testing_phase_files` folder contains python files and data saved from the exploratory phase of my research. For all purposes of the study, this folder can be completely ignored. 
+The data currently in this repository will be overwritten on your local device when running these files. Each file is built to be able to run independently, given the required data was collected at some point in time. The `testing_phase_files` folder contains Python files and data saved from the exploratory phase of my research. For all purposes of the study, this folder can be completely ignored. 
 
 *Usage*
 
